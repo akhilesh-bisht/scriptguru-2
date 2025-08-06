@@ -10,7 +10,10 @@ In this app, multiple users can collaborate on notes in real-time. The app featu
 
 
 backend -   https://scriptguru-2.onrender.com
+frontend - https://scriptguru-2.vercel.app/
+
 ---
+
 
 ## Table of Contents
 
