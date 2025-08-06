@@ -6,6 +6,10 @@ This is a **Real-Time Collaborative Notes App** built with a modern stack includ
 
 In this app, multiple users can collaborate on notes in real-time. The app features a markdown editor and allows users to create, edit, and update notes in real-time with others.
 
+
+
+
+backend -   https://scriptguru-2.onrender.com
 ---
 
 ## Table of Contents

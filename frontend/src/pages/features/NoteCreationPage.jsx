@@ -12,7 +12,7 @@ function NoteCreationPage() {
 
     setLoading(true);
     try {
-      const response = await axios.post("http://localhost:4000/api/notes", {
+      const response = await axios.post("https://scriptguru-2.onrender.com/api/notes", {
         title,
       });
 

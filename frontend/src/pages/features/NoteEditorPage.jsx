@@ -4,7 +4,7 @@ import SimpleMDE from "react-simplemde-editor";
 import "simplemde/dist/simplemde.min.css";
 import { io } from "socket.io-client";
 
-const SOCKET_URL = "http://localhost:4000"; 
+const SOCKET_URL = "https://scriptguru-2.onrender.com"; 
 
 const NoteEditorPage = () => {
   const { id } = useParams();
@@ -80,7 +80,7 @@ const NoteEditorPage = () => {
 
    const handleSave = async () => {
     try {
-      await fetch(`http://localhost:4000/api/notes/${id}`, {
+      await fetch(`https://scriptguru-2.onrender.com/api/notes/${id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ content }),
