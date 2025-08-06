@@ -9,7 +9,7 @@ router.post('/' , createNote)
 // GET |  /notes/:id |  Fetch note by ID
 router.get('/:id' , getNote)
 
-// PUT | /notes/:id |  Update note content
+// PUT | /notes/:id |  Update note contents
 router.put('/:id' ,updateNote)
 
 export default router;
